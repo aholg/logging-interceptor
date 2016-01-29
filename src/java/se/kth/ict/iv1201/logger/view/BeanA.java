@@ -5,7 +5,7 @@ import javax.inject.Inject;
 import javax.inject.Named;
 import se.kth.ict.iv1201.logger.util.Log;
 
-/**TESTEST
+/**TESTESTTEST
  * Firparamt bean in intercepted call chain.
  */
 @Log
