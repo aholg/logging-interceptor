@@ -5,7 +5,7 @@ import javax.inject.Inject;
 import javax.inject.Named;
 import se.kth.ict.iv1201.logger.util.Log;
 
-/**
+/**TESTEST
  * Firparamt bean in intercepted call chain.
  */
 @Log
@@ -34,9 +34,9 @@ public class BeanA {
     }
 
     public void doIt() {
-        try {
+        //try {
             beanB.doIt(throwException, param);
-        } catch (Throwable expected) {
-        }
+        //} catch (Throwable expected) {
+       // }
     }
 }
